@@ -1,0 +1,65 @@
+
+
+[
+    {
+      "id": 1,
+      "name": "Movie Rec",
+      "image":
+        "./pictures/Screenshot (17).png",
+      "description":
+        "Movie recommendation system based on user's history and movie's genre.",
+        "tools":"HTML, CSS, JavaScript, Bootstrap",
+
+      "deployed": "https://oborendo.github.io/group-project/",
+      "repo": "https://github.com/Oborendo/group-project"
+    },
+    {
+      "id": 2,
+      "name": "Work Day Planner",
+      "image": "./pictures/Screenshot (3).png",
+      "description": "a calendar for your workday that responds dynamicly. ",
+      "tools":"HTML, CSS, JavaScript, Bootstrap",
+      "deployed": " https://trae77.github.io/calendar/",
+      "repo": "https://github.com/trae77/calendar"
+    },
+    {
+      "id": 3,
+      "name": "Quiz",
+      "image":
+      "./pictures/quiz.png",
+      "description": "A quiz with timer and high score",
+      "tools":" node.js, MySQL",
+      "deployed": " https://trae77.github.io/web-api-/",
+      "repo": "https://github.com/trae77/web-api-"
+    },
+    {
+      "id": 4,
+      "name": "Foodmersion",
+      "image":
+      "./pictures/foodmersion.jpg",
+      "description": "FullStack website for our imaginary restaurant FoodMersion - an interactive dining experience.",
+      "tools":" HTML, JavaScript, Bootstrap, sequalize , Mysql, tailwind css, Insomnia",
+      "deployed": "https://evening-spire-50554.herokuapp.com/",
+      "repo":"https://github.com/jacksoncurdo/FoodMersion-"
+    },
+    {
+      "id": 5,
+      "name": "Employee Management",
+      "image":
+      "./pictures/Screenshot-201520.png" ,
+      "description": "Command line application using node.js and MySQL for the database in order to keep track of employees, their departments, managers, salaries, and roles in the company.",
+      "tools":"HTML, CSS, JavaScript, Bootstrap",
+      "deployed": "https://github.com/trae77/office-"
+     
+    },
+    {
+      "id": 6,
+      "name": "Blog Post",
+      "image":
+      "./pictures/prof pic.jpg",
+      "description": "keeps blogs with titles",
+      "tools":"HTML, CSS, JavaScript, Bootstrap, sequalize , Mysql, Insomnia",
+      "deployed": " https://github.com/trae77/blog-post"
+      
+    }
+  ]
