@@ -1,12 +1,10 @@
 import React from "react";
-import "../styles/SearchBox.css";
+import "../styles/Aboutme.css";
 import projects from "../Projects.json";
-import pic from "../picture/anniversary.jpeg";
+import pic from "../picture/cert.png";
 
 const styles = {
-    // img: {
-    //   height: 150,
-    // },
+ 
     card: {
       width: "400px",
       margin: 20
@@ -16,8 +14,13 @@ const styles = {
 function Projects() {
   return (
     
+    <div style={{ 
+    
+      backgroundImage: 
+      `url(${pic})` 
+     
+    }}> 
 
-   
   
     <div className="container" id="portfolio">
           <div className="row">
@@ -75,7 +78,7 @@ function Projects() {
     </div>
     </div>
     </div>
-   
+    </div>
     
    
 
