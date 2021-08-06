@@ -16,7 +16,7 @@ function Contacts() {
    
   }}> 
   <div>
-    <h1>Contact Page</h1>
+    
     <h1>Email : Soccerreferee7@gmail.com</h1>
   
     <div class="form-group">
@@ -69,6 +69,15 @@ function Contacts() {
   <h6>
     Example  
   </h6>
+</div>
+<div>
+  <h1>
+    Example 
+  </h1>
+  <h2>
+    Example 
+  </h2>
+
 </div>
 
 

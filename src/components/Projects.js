@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Aboutme.css";
 import projects from "../Projects.json";
-import pic from "../picture/cert.png";
+import pic from "../picture/bright.jpg";
 
 const styles = {
  
@@ -26,7 +26,6 @@ function Projects() {
           <div className="row">
             <div className="col-md-1"></div>
             <div className="col-md-12 col-md-10">
-             <h1 className="header">Portfolio</h1>
          <hr />
               <div className="card-container">
                <div className="row">
