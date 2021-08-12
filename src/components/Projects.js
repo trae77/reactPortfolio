@@ -1,18 +1,49 @@
 import React from "react";
 import "../styles/Aboutme.css";
-import projects from "../Projects.json";
+import card from "../Projects.json";
 import pic from "../picture/bright.jpg";
 
+
 const styles = {
-  card: {
-    width: "400px",
+  cards: {
+    maxwidth: "385px",
     margin: 20,
+    padding: "20px",
   },
-};
+}
+ 
+
+
 
 function Projects() {
+//   var i;
+
+// for (i = 0; i < card.length; i++) {
+//   wiggle(card[i])
+  
+// };
+
+// function wiggle (card){
+//  card.addEventListener('mousemove', function (e) {
+//     var wh = window.innerHeight / 2,
+//     //ww = window.innerWidth / 2,
+//     offX = this.offsetLeft,
+//     //offY = this.offsetTop
+//     offW = this.offsetWidth/2;
+//     this.style.setProperty('--mouseX', (e.clientX - offX - offW) / 25);
+//     this.style.setProperty('--mouseY', (e.clientY - wh) / 25);
+  
+//   });
+
+// card.addEventListener('mouseleave', function (e) {
+
+//   this.style.setProperty('--mouseX', 0);
+//   this.style.setProperty('--mouseY', 0);
+
+// });
+// }
   return (
-    <div className="container" id="portfolio">
+    <div className="container" >
       <div
         style={{
           backgroundImage: `url(${pic})`,
@@ -24,23 +55,23 @@ function Projects() {
             <hr />
             <div className="card-container">
               <div className="row">
-                {projects.map((project) => (
+                {card.map((card) => (
                   <div className="col-md-4">
-                    <div className="card" style={styles.card} key={project.id}>
+                    <div className="card" id="portfolio" style={styles.cards} key={card.id}>
                       <img
-                        src={project.image}
+                        src={card.image}
                         style={styles.img}
                         className="card-img-top"
-                        alt={project.name}
+                        alt={card.name}
                       />
                       <div className="card-body">
-                        <h5 className="card-title">{project.name}</h5>
-                        <p className="card-text">{project.description}</p>
-                        <p className="card-text">{project.tools}</p>
+                        <h5 className="card-title">{card.name}</h5>
+                        <p className="card-text">{card.description}</p>
+                        <p className="card-text">{card.tools}</p>
                         <div className="row">
                           <div className="col-6">
                             <a
-                              href={project.deployed}
+                              href={card.deployed}
                               className="btn btn-primary"
                               id="btn-who-said-it"
                             >
@@ -49,7 +80,7 @@ function Projects() {
                           </div>
                           <div className="col-6">
                             <a
-                              href={project.repo}
+                              href={card.repo}
                               className="btn btn-primary"
                               id="btn-who-said-it"
                             >

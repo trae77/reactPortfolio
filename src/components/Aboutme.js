@@ -1,13 +1,7 @@
 import React from "react";
 import "../styles/Aboutme.css";
 
-// const styles = {
 
-//   card: {
-//     width: "500px",
-//     margin: 10
-//   },
-//  };
 
 function Aboutme() {
   return (
