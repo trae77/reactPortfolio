@@ -4,7 +4,7 @@ import "../styles/Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Traes company </span>
+      <span>Trae's company </span>
     </footer>
   );
 }

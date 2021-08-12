@@ -3,7 +3,7 @@ import Contacts from "../components/Contact";
 
 const Contact = () => (
   
-    <Contacts/>
+ <Contacts></Contacts>
     
 
 
