@@ -9,7 +9,7 @@ import Row from "react-bootstrap/Row"
 import github from "../picture/icons/github.jpg";
 import css from "../picture/icons/css.png";
 import html from "../picture/icons/html.png";
-import handlebars from "../picture/icons/handlebars.png";
+import handlebars from "../picture/icons/handlebars.jpg";
 import javascript from "../picture/icons/javascript.png";
 import jquery from "../picture/icons/jquery.png";
 import mongodb from "../picture/icons/mongodb.png";
