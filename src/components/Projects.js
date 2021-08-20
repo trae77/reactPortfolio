@@ -3,47 +3,9 @@ import "../styles/Aboutme.css";
 import card from "../Projects.json";
 import pic from "../picture/bright.jpg";
 
-
-const styles = {
-  cards: {
-    maxwidth: "385px",
-    margin: 20,
-    padding: "20px",
-  },
-}
- 
-
-
-
 function Projects() {
-//   var i;
-
-// for (i = 0; i < card.length; i++) {
-//   wiggle(card[i])
-  
-// };
-
-// function wiggle (card){
-//  card.addEventListener('mousemove', function (e) {
-//     var wh = window.innerHeight / 2,
-//     //ww = window.innerWidth / 2,
-//     offX = this.offsetLeft,
-//     //offY = this.offsetTop
-//     offW = this.offsetWidth/2;
-//     this.style.setProperty('--mouseX', (e.clientX - offX - offW) / 25);
-//     this.style.setProperty('--mouseY', (e.clientY - wh) / 25);
-  
-//   });
-
-// card.addEventListener('mouseleave', function (e) {
-
-//   this.style.setProperty('--mouseX', 0);
-//   this.style.setProperty('--mouseY', 0);
-
-// });
-// }
   return (
-    <div className="container" >
+    <div className="container">
       <div
         style={{
           backgroundImage: `url(${pic})`,
@@ -57,10 +19,9 @@ function Projects() {
               <div className="row">
                 {card.map((card) => (
                   <div className="col-md-4">
-                    <div className="card" id="portfolio" style={styles.cards} key={card.id}>
+                    <div className="card" key={card.id}>
                       <img
                         src={card.image}
-                        style={styles.img}
                         className="card-img-top"
                         alt={card.name}
                       />

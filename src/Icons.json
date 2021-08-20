@@ -1,0 +1,64 @@
+[
+    {
+      "id": 1,
+      "name": "html",
+      "image":"./pictures/icons/html.png"
+    },
+    {
+      "id": 2,
+      "name": "css",
+      "image": "./pictures/css.png"
+    },
+    {
+      "id": 3,
+      "name": "javascript",
+      "image":"./pictures/icons/javascript.png"
+    },
+    {
+      "id": 4,
+      "name": "jquery",
+      "image": "./pictures/icons/jquery.png"
+    },
+    {
+      "id": 5,
+      "name": "sass",
+      "image":"./pictures/icons/sass.png" 
+   
+    },
+    {
+      "id": 6,
+      "name": "react",
+      "image":"./pictures/icons/react.png"
+     
+    },
+     {
+        "id": 7,
+        "name": "node",
+        "image":  "./pictures/icons/node.png"
+      },
+      {
+        "id": 8,
+        "name": "express",
+        "image": "./pictures/icons/express.png"
+      },
+      {
+        "id": 9,
+        "name": "handlebars",
+        "image": "./pictures/icons/handlebars.png"
+      },
+      {
+        "id": 10,
+        "name": "Mongodb",
+        "image":"./pictures/icons/mongodb.png"
+      },
+      {
+        "id": 11,
+        "name": "Mysql",
+        "image":"./pictures/icons/mysql.png"
+      },
+      {
+        "id": 12,
+        "name": "Github",
+        "image": "./pictures/icons/github.png"
+      }
+  ]

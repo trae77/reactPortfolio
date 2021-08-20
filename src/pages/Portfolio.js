@@ -7,8 +7,10 @@ const Portfolio = () => (
   <div>
     <Projects projects ={project}
       />
-
+ <script type="text/javascript" src="../../public/index.js"></script>
+ 
   </div>
+  
   
 );
 

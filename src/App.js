@@ -4,6 +4,7 @@ import AboutPage from "./pages/About";
 import ContactPage from "./pages/Contact";
 import PortfolioPage from "./pages/Portfolio";
 
+
 // import MyStack from "./pages/MyStackPage/MyStack";
 import Footer from "./components/Footer";
 
@@ -22,6 +23,7 @@ function App() {
     <Router>
       <div>
         <Navbar />
+        
           <Route exact path="/" component={AboutPage} />
           <Route exact path="/about" component={AboutPage} />
           <Route exact path="/Portfolio" component={PortfolioPage} />
