@@ -31,7 +31,7 @@ const About = () => (
   <Container fluid>
     <div className="background">
       <Row>
-        <Col md={2.5}>
+        <Col md={2}>
           <ButtonGroup vertical>
             <Button>
               <img alt="github" src={github} />
@@ -60,7 +60,7 @@ const About = () => (
             justifyContent: "center",
             alignItems: "center",
           }}
-          lg={8}
+          lg={7}
         >
           <h1>Full-stack Software engineer</h1>
 
