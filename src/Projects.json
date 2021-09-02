@@ -17,7 +17,7 @@
       "id": 2,
       "name": "wheather data",
       "image":
-      "./pictures/Screenshot (11).png",
+      "./pictures/Screenshot (21).png",
       "description":
         "Look up the wheather in different cities using an api",
         "tools":"HTML, CSS, JavaScript, Bootstrap, local storage",
