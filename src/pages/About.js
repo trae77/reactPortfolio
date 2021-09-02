@@ -31,7 +31,7 @@ const About = () => (
   <Container fluid>
     <div className="background">
       <Row>
-        <Col md={2}>
+        <Col sm={2}>
           <ButtonGroup vertical>
             <Button>
               <img alt="github" src={github} />
@@ -97,7 +97,7 @@ const About = () => (
             </div>
           </div>
         </Col>
-        <Col md={2}>
+        <Col sm={2}>
           <ButtonGroup vertical>
             <Button>
               <img src={react} alt="react" />
