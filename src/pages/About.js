@@ -60,7 +60,7 @@ const About = () => (
             justifyContent: "center",
             alignItems: "center",
           }}
-          lg={8}
+          md={8}
         >
           <h1>Full-stack Software engineer</h1>
 
