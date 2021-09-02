@@ -9,9 +9,42 @@
   align-items: flex-start;
 }
 
-.search-area {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+a:link {
+  text-size-adjust: 200%;
+
+  padding: 20px;
+  text-align: justify;
+  color: rgb(55, 251, 55);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  text-size-adjust: 200%;
+
+  padding: 20px;
+  text-align: justify;
+  color: rgb(33, 27, 63);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  text-size-adjust:  200%;
+
+  padding: 20px;
+  text-align: justify;
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  text-size-adjust: 200%;
+
+  padding: 20px ;
+  text-align: justify;
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }

@@ -1,5 +1,5 @@
 
-h3{
+h1, h3{
    color: rgb(253, 252, 252);
 }
 
@@ -9,21 +9,11 @@ top: 0;
 width: 100%;
 height: 100%;
 background-size: cover;
-background-image: url('../picture/cool2.jpg');
+background-image: url('../pictures/cool2.jpg');
 }
-.container{
-    padding-left: 5px;
-  padding-right:5px ;
-height: auto;
-}
-.card-container {
 
-  padding-left: 5px;
-  padding-right:5px ;
+p{
 
-  max-width: "385px",
-}
-.w3-third w3-section{
- 
-
+   padding-right: 10px;
+   color: rgb(29, 14, 236);
 }

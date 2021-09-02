@@ -15,12 +15,15 @@
     },
     {
       "id": 2,
-      "name": "Work Day Planner",
-      "image": "./pictures/Screenshot (3).png",
-      "description": "a calendar for your workday that responds dynamicly. ",
-      "tools":"HTML, CSS, JavaScript, Bootstrap",
-      "deployed": " https://trae77.github.io/calendar/",
-      "repo": "https://github.com/trae77/calendar"
+      "name": "wheather data",
+      "image":
+      "./pictures/Screenshot (11).png",
+      "description":
+        "Look up the wheather in different cities using an api",
+        "tools":"HTML, CSS, JavaScript, Bootstrap, local storage",
+
+      "deployed": "https://trae77.github.io/wheather-data/",
+      "repo": "https://github.com/trae77/wheather-data"
     },
     {
       "id": 3,
@@ -62,4 +65,5 @@
       "deployed": " https://github.com/trae77/blog-post"
       
     }
-  ]
+    
+    ]
