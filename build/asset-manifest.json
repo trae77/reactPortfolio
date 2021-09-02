@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f7b3f259.chunk.css",
+    "main.js": "/static/js/main.890cc850.chunk.js",
+    "main.js.map": "/static/js/main.890cc850.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7dba1cdf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7dba1cdf.js.map",
+    "static/css/2.27dd871e.chunk.css": "/static/css/2.27dd871e.chunk.css",
+    "static/js/2.108451ee.chunk.js": "/static/js/2.108451ee.chunk.js",
+    "static/js/2.108451ee.chunk.js.map": "/static/js/2.108451ee.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.27dd871e.chunk.css.map": "/static/css/2.27dd871e.chunk.css.map",
+    "static/css/main.f7b3f259.chunk.css.map": "/static/css/main.f7b3f259.chunk.css.map",
+    "static/js/2.108451ee.chunk.js.LICENSE.txt": "/static/js/2.108451ee.chunk.js.LICENSE.txt",
+    "static/media/Aboutme.css": "/static/media/cool2.5329aa31.jpg",
+    "static/media/github.bee2382b.jpg": "/static/media/github.bee2382b.jpg",
+    "static/media/handlebars.1fcd2719.jpg": "/static/media/handlebars.1fcd2719.jpg",
+    "static/media/react.55e1991e.png": "/static/media/react.55e1991e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7dba1cdf.js",
+    "static/css/2.27dd871e.chunk.css",
+    "static/js/2.108451ee.chunk.js",
+    "static/css/main.f7b3f259.chunk.css",
+    "static/js/main.890cc850.chunk.js"
+  ]
+}
