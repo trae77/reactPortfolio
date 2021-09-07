@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Aboutme.css";
 import "../styles/Portfolio.css";
 import "../styles/reset.css";
 import "../styles/style.css";
@@ -34,7 +33,7 @@ const About = () => {
     <Container fluid>
       <div className="background">
         <Row>
-          <Col sm={2}>
+          <Col >
             <ButtonGroup vertical className="custom-btn">
               <Button>
                 <img alt="github" src={github} />
