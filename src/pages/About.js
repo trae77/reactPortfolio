@@ -1,6 +1,7 @@
 
 import React from "react";
-import "../styles/Aboutme.css";
+import '../styles/Aboutme.css';
+import '../styles/Portfolio.css';
 
 import {
   Card,
@@ -13,7 +14,7 @@ import {
 import card from "../Projects.json";
 // import pic from "../pictures/leaf.jpg";
 
-import github from "../pictures/icons/github.jpg";
+import github from "../pictures/icons/github.png";
 import css from "../pictures/icons/css.png";
 import html from "../pictures/icons/html.png";
 import handlebars from "../pictures/icons/handlebars.jpg";
@@ -31,15 +32,15 @@ const About = () => (
   <Container fluid>
     <div className="background">
       <Row>
-        <Col md={2.5}>
-          <ButtonGroup vertical>
-            <Button>
+        <Col sm={2}>
+          <ButtonGroup vertical className="custom-btn">
+            <Button >
               <img alt="github" src={github} />
             </Button>
-            <Button>
+            <Button >
               <img src={css} alt="css" />
             </Button>
-            <Button>
+            <Button >
               <img src={html} alt="html" />
             </Button>
             <Button>
@@ -60,7 +61,7 @@ const About = () => (
             justifyContent: "center",
             alignItems: "center",
           }}
-          lg={8}
+          md={8}
         >
           <h1>Full-stack Software engineer</h1>
 
@@ -97,9 +98,9 @@ const About = () => (
             </div>
           </div>
         </Col>
-        <Col md={2}>
-          <ButtonGroup vertical>
-            <Button>
+        <Col sm={2}>
+          <ButtonGroup vertical className="custom-btn">
+            <Button >
               <img src={react} alt="react" />
             </Button>
             <Button>
