@@ -1,17 +1,13 @@
-
-
 /** CONTENT **/
 
-
-
 .card-envo:hover {
-  background-color:  rgb(251, 96, 6);
+  background-color: rgb(251, 96, 6);
 }
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
   background-color: transparent;
-  width: 550px;
-  height:350px;
+  width: 450px;
+  height: 350px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -42,16 +38,13 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-box-front {
-  background-color: rgb(77, 45, 45);
-  color: black;
+  background-color: #bbb;
 }
 
 /* Style the back side */
 .flip-box-back {
-  content : center;
+  content: center;
   background-color: rgb(11, 197, 230);
   color: rgb(24, 8, 247);
   transform: rotateY(180deg);
 }
-
-

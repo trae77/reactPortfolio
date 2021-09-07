@@ -4,7 +4,6 @@ import "../styles/Portfolio.css";
 import "../styles/reset.css";
 import "../styles/style.css";
 
-
 import {
   Card,
   Col,
@@ -75,39 +74,41 @@ const About = () => {
             </h3>
 
             <div className="card-container">
-        <div className="row">
-          {card.map((card) => (
-            <div class="card card-envo">
-                <div class="flip-box">
-                    <div class="flip-box-inner">
-            <Card key={card.id} >
-              <Card.Img  class = "pic" variant="top" src={card.image} />
-              <Card.Body  class="flip-box-back project-image">
-                <Card.Title class="mt-2">{card.name}</Card.Title>
-                <Card.Text  class="mt-2">description: {card.description}</Card.Text>
-                <Card.Text  class="mt-2" >Tools: {card.tools}</Card.Text>
-               
-              </Card.Body>
-           
-            </Card>
-          
+              <div className="row">
+                {card.map((card) => (
+                  <div class="card card-envo">
+                    <div class="flip-box">
+                      <div class="flip-box-inner">
+                        <Card key={card.id}>
+                          <Card.Img
+                            class="pic"
+                            variant="top"
+                            src={card.image}
+                          />
+                          <Card.Body class="flip-box-back project-image">
+                            <Card.Title class="mt-2">{card.name}</Card.Title>
+                            <Card.Text class="mt-2">
+                              description: {card.description}
+                            </Card.Text>
+                            <Card.Text class="mt-2">
+                              Tools: {card.tools}
+                            </Card.Text>
+                          </Card.Body>
+                        </Card>
+                      </div>
+                    </div>
+                    <Button variant="primary">
+                      <a href={card.deployed}>Deployed</a>
+                    </Button>
+                    <Button variant="primary">
+                      <a href={card.repo}>Repo</a>
+                    </Button>
+                  </div>
+                ))}
+              </div>
             </div>
-            </div>
-            <Button variant="primary">
-                  <a href={card.deployed}>Deployed</a>
-                </Button>
-                <Button variant="primary">
-                  <a href={card.repo}>Repo</a>
-                </Button>
-            </div>
-         
-          ))}
-         
-        </div>
-       
-      </div>
 
-{/*           
+            {/*           
             <div className="card-container">
               <div className="row">
                 {card.map((card) => (
@@ -150,12 +151,6 @@ const About = () => {
           </Col>
         </Row>
       </div>
-
-
-     
-  
-        
-
     </Container>
   );
 };
