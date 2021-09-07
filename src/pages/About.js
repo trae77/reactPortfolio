@@ -26,7 +26,7 @@ import mysql from "../pictures/icons/mysql.png";
 import node from "../pictures/icons/node.png";
 import react from "../pictures/icons/react.png";
 import sass from "../pictures/icons/sass.png";
-import test from "../pictures/cool.jpg";
+// import test from "../pictures/cool.jpg";
 // import pics from "../pictures/wheather.png";
 
 const About = () => {
