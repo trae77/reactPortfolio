@@ -56,11 +56,7 @@ const About = () => (
           </ButtonGroup>
         </Col>
         <Col
-          style={{
-            // display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
+   
          sm={8}
         >
           <h1>Full-stack Software engineer</h1>
