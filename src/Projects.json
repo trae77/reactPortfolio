@@ -50,7 +50,7 @@
       "name": "Employee Management",
       "image":
       "./pictures/Screenshot-201520.png" ,
-      "description": "Command line application using node.js and MySQL for the database in order to keep track of employees, their departments, managers, salaries, and roles in the company.",
+      "description": "Command line application using node.js and MySQL to keep track of employees, their departments, managers, salaries, and roles.",
       "tools":"HTML, CSS, JavaScript, Bootstrap",
       "deployed": "https://github.com/trae77/office-"
      

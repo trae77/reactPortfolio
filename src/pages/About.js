@@ -79,7 +79,7 @@ const About = () => (
               {card.map((card) => (
                 <Card
                   key={card.id}
-                  style={{ height: "500px", padding: "10px", width: "375px" }}
+                   style={{ height: "500px", padding: "10px", width: "350px" }}
                 >
                   <Card.Img variant="top" src={card.image} />
                   <Card.Body>
@@ -116,13 +116,13 @@ const About = () => (
       </Row>
 
       <Row>
-        <Col sm={1}></Col>
-        <Row></Row>
-        <Col id="contact">
-  
-        </Col>
+       
+      
       </Row>
     </div>
+    <Row>
+    
+    </Row>
   </Container>
 );
 
