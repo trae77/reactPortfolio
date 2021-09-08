@@ -78,7 +78,7 @@ const About = () => {
                   <div class="card card-envo">
                     <div class="flip-box">
                       <div class="flip-box-inner">
-                        <Card key={card.id}>
+                        <Card id= "card" key={card.id}>
                           <Card.Img
                             class="pic"
                             variant="top"
