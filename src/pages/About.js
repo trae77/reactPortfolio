@@ -97,10 +97,10 @@ const About = () => {
                       </div>
                     </div>
                     <Button variant="primary">
-                      <a href={card.deployed}>Deployed</a>
+                      <a href={card.deployed} target="_blank">Deployed</a>
                     </Button>
                     <Button variant="primary">
-                      <a href={card.repo}>Repo</a>
+                      <a href={card.repo}target="_blank">Repo</a>
                     </Button>
                   </div>
                 ))}
