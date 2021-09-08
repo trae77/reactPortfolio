@@ -24,7 +24,7 @@
 
 
   background-color: transparent;
-  width: 450px;
+  width: 420px;
   height: 350px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
