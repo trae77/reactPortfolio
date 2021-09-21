@@ -60,11 +60,11 @@ const About = () => {
             <h1>Full-stack Software engineer</h1>
 
             <h3>
-              I currently live in Thornton colorado but am originally from
+              I currently live in Thornton Colorado but am originally from
               Michigan. I enjoy playing sports and video games in my free time.
               Web Developer trained at the University of Denver Coding Bootcamp
               and earned a full-Stack Web Development Certificate. Innovative
-              problem-solver is passionate about developing apps focused on
+              problem-solver that is passionate about developing apps focused on
               mobile-first design and development. Strengths in creativity,
               teamwork, and building projects from ideation to execution. To
               secure a position that will utilize my skills and experience to
