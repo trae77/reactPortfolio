@@ -64,8 +64,8 @@
 /* Style the back side */
 .flip-box-back {
   content: center;
-  background-color: rgb(4, 213, 250);
-  color: rgb(70, 6, 247);
+  background-color: rgb(16, 156, 250);
+  color: rgb(243, 241, 248);
   transform: rotateY(180deg);
 }
 .card{
@@ -74,4 +74,9 @@
 }
 .flip-box-back project-image{
   padding: 5px 5px;
+}
+.button{
+  background-color: rgb(254, 252, 251);
+  padding: 5px 5px;
+  margin: 5px 5px;
 }

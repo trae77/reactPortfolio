@@ -35,23 +35,23 @@ const About = () => {
         <Row>
           <Col>
             <ButtonGroup vertical className="custom-btn">
-              <Button>
+              <Button class = "button">
                 <img alt="github" src={github} />
               </Button>
-              <Button>
+              <Button class = "button">
                 <img src={css} alt="css" />
               </Button>
-              <Button>
+              <Button class = "button">
                 <img src={html} alt="html" />
               </Button>
-              <Button>
+              <Button class = "button">
                 <img src={handlebars} alt="handlebars" />
               </Button>
-              <Button>
+              <Button class = "button">
                 {" "}
                 <img src={javascript} alt="javascript" />
               </Button>
-              <Button>
+              <Button class = "button">
                 <img src={jquery} alt="jquery" />
               </Button>
             </ButtonGroup>
@@ -97,12 +97,13 @@ const About = () => {
                         </Card>
                       </div>
                     </div>
-                    <Button variant="primary">
+                    <Button variant="primary"
+                   class = "button">
                       <a href={card.deployed} target="_blank">
                         Deployed
                       </a>
                     </Button>
-                    <Button variant="primary">
+                    <Button variant="primary"  class = "button">
                       <a href={card.repo} target="_blank">
                         Repo
                       </a>
@@ -136,19 +137,19 @@ const About = () => {
           </Col>
           <Col sm={2}>
             <ButtonGroup vertical className="custom-btn">
-              <Button>
+              <Button class = "button">
                 <img src={react} alt="react" />
               </Button>
-              <Button>
+              <Button class = "button">
                 <img src={sass} alt="sass" />
               </Button>
-              <Button>
+              <Button class = "button">
                 <img src={mongodb} alt="mongodb" />
               </Button>
-              <Button>
+              <Button class = "button">
                 <img src={mysql} alt="mysql" />
               </Button>
-              <Button>
+              <Button class = "button">
                 <img src={node} alt="node" />
               </Button>
             </ButtonGroup>
