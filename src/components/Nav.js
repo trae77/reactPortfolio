@@ -13,7 +13,7 @@ function Navbar() {
    Traes Portfolio 
   </Button> */}
    
-      <Button class = "button" >
+      <Button class="button" >
       <a href="https://www.linkedin.com/in/william-pollak-7145bb200/" target="_blank">    Linkedin</a> 
               </Button>
              

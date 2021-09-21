@@ -19,7 +19,7 @@ a:link {
 
   padding: 20px;
   text-align: justify;
-  color: rgb(55, 251, 55);
+  color: rgb(233, 59, 36);
   background-color: transparent;
   text-decoration: none;
 }
@@ -30,7 +30,7 @@ a:visited {
   padding: 20px;
   text-align: justify;
   color: rgb(253, 5, 5);
-  background-color: transparent;
+  background-color: rgb(254, 252, 251);;
   text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ a:hover {
   padding: 20px;
   text-align: justify;
   color: rgb(1, 6, 12);
-  background-color: transparent;
+  background-color: rgb(254, 252, 251);;
   text-decoration: underline;
 }
 
@@ -49,7 +49,11 @@ a:active {
 
   padding: 20px ;
   text-align: justify;
-  color: yellow;
+  color: rgb(241, 75, 24);
   background-color: transparent;
   text-decoration: underline;
+}
+.button{
+ color: rgb(243, 64, 10);
+  
 }
