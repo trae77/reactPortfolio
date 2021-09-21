@@ -9,9 +9,9 @@ function Navbar() {
   return (
  
         <Nav className="mr-auto">
-   <Button bsPrefix="super-btn" variant="primary">
+   {/* <Button bsPrefix="super-btn" variant="primary">
    Traes Portfolio 
-  </Button>
+  </Button> */}
    
       <Button class = "button" >
       <a href="https://www.linkedin.com/in/william-pollak-7145bb200/" target="_blank">    Linkedin</a> 
