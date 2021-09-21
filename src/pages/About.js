@@ -33,7 +33,7 @@ const About = () => {
     <Container fluid>
       <div className="background">
         <Row>
-          <Col >
+          <Col>
             <ButtonGroup vertical className="custom-btn">
               <Button>
                 <img alt="github" src={github} />
@@ -60,11 +60,11 @@ const About = () => {
             <h1>Full-stack Software engineer</h1>
 
             <h3>
-              I currently live in thornton colorado, but am originally from
-              michigan. I enjoy playing sports and video games in my free time.
+              I currently live in Thornton colorado but am originally from
+              Michigan. I enjoy playing sports and video games in my free time.
               Web Developer trained at the University of Denver Coding Bootcamp
-              and earned a full Stack Web Development Certificate. Innovative
-              problem-solver passionate about developing apps, focused on
+              and earned a full-Stack Web Development Certificate. Innovative
+              problem-solver is passionate about developing apps focused on
               mobile-first design and development. Strengths in creativity,
               teamwork, and building projects from ideation to execution. To
               secure a position that will utilize my skills and experience to
@@ -78,7 +78,7 @@ const About = () => {
                   <div class="card card-envo">
                     <div class="flip-box">
                       <div class="flip-box-inner">
-                        <Card id= "card" key={card.id}>
+                        <Card id="card" key={card.id}>
                           <Card.Img
                             class="pic"
                             variant="top"
@@ -97,10 +97,14 @@ const About = () => {
                       </div>
                     </div>
                     <Button variant="primary">
-                      <a href={card.deployed} target="_blank">Deployed</a>
+                      <a href={card.deployed} target="_blank">
+                        Deployed
+                      </a>
                     </Button>
                     <Button variant="primary">
-                      <a href={card.repo}target="_blank">Repo</a>
+                      <a href={card.repo} target="_blank">
+                        Repo
+                      </a>
                     </Button>
                   </div>
                 ))}
