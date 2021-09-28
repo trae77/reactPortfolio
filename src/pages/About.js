@@ -1,6 +1,4 @@
 import React from "react";
-import "../styles/Portfolio.css";
-import "../styles/reset.css";
 import "../styles/style.css";
 
 import {
@@ -14,17 +12,17 @@ import {
 import card from "../Projects.json";
 // import pic from "../pictures/leaf.jpg";
 
-import github from "../pictures/icons/github.png";
-import css from "../pictures/icons/css.png";
-import html from "../pictures/icons/html.png";
-import handlebars from "../pictures/icons/handlebars.jpg";
-import javascript from "../pictures/icons/javascript.png";
-import jquery from "../pictures/icons/jquery.png";
-import mongodb from "../pictures/icons/mongodb.png";
-import mysql from "../pictures/icons/mysql.png";
-import node from "../pictures/icons/node.png";
-import react from "../pictures/icons/react.png";
-import sass from "../pictures/icons/sass.png";
+import github from "../picture/icons/github.jpg";
+import css from "../picture/icons/css.png";
+import html from "../picture/icons/html.png";
+import handlebars from "../picture/icons/handlebars.jpg";
+import javascript from "../picture/icons/javascript.png";
+import jquery from "../picture/icons/jquery.png";
+import mongodb from "../picture/icons/mongodb.png";
+import mysql from "../picture/icons/mysql.png";
+import node from "../picture/icons/node.png";
+import react from "../picture/icons/react.png";
+import sass from "../picture/icons/sass.png";
 // import test from "../pictures/cool.jpg";
 // import pics from "../pictures/wheather.png";
 
@@ -161,3 +159,15 @@ const About = () => {
 };
 
 export default About;
+
+
+// {   project 
+//   "id": 1,
+//   "name": "Solar Calculator",
+//   "image":
+//   "./picture/solar.jpg",
+//   "description": "Will calculate if solar is a good option based on location and data.",
+//   "tools":"HTML, CSS, JavaScript, Bootstrap, React",
+//   "deployed": " https://solarcalc.herokuapp.com/"
+  
+// },
