@@ -80,7 +80,7 @@ const About = () => {
                           <Card.Img
                             class="pic"
                             variant="top"
-                            alt="pic"
+                            alt={card.description}
                             src={card.image}
                           />
                           <Card.Body class="flip-box-back project-image">

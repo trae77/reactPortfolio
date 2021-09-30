@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+GENERATE_SOURCEMAP=false
 # misc
 .DS_Store
 .env.local
