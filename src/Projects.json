@@ -3,15 +3,13 @@
 [
     {
       "id": 1,
-      "name": "Movie Rec",
+      "name": "Foodmersion",
       "image":
-        "./pictures/Screenshot (17).png",
-      "description":
-        "Movie recommendation system based on user's history and movie's genre.",
-        "tools":"HTML, CSS, JavaScript, Bootstrap",
-
-      "deployed": "https://oborendo.github.io/group-project/",
-      "repo": "https://github.com/Oborendo/group-project"
+      "./pictures/foodmersion.jpg",
+      "description": "FullStack website for our imaginary restaurant FoodMersion - an interactive dining experience.",
+      "tools":" HTML, JavaScript, Bootstrap, sequalize , Mysql, tailwind css, Insomnia",
+      "deployed": "https://evening-spire-50554.herokuapp.com/",
+      "repo":"https://github.com/jacksoncurdo/FoodMersion-"
     },
     {
       "id": 2,
@@ -37,13 +35,15 @@
     },
     {
       "id": 4,
-      "name": "Foodmersion",
+      "name": "Movie Rec",
       "image":
-      "./pictures/foodmersion.jpg",
-      "description": "FullStack website for our imaginary restaurant FoodMersion - an interactive dining experience.",
-      "tools":" HTML, JavaScript, Bootstrap, sequalize , Mysql, tailwind css, Insomnia",
-      "deployed": "https://evening-spire-50554.herokuapp.com/",
-      "repo":"https://github.com/jacksoncurdo/FoodMersion-"
+        "./pictures/Screenshot (17).png",
+      "description":
+        "Movie recommendation system based on user's history and movie's genre.",
+        "tools":"HTML, CSS, JavaScript, Bootstrap",
+      
+      "deployed": "https://oborendo.github.io/group-project/",
+      "repo": "https://github.com/Oborendo/group-project"
     },
     {
       "id": 5,

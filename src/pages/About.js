@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/bootswatch.css"
 import "../styles/style.css";
 
 import {
@@ -161,7 +162,7 @@ const About = () => {
 export default About;
 
 
-// {   project 
+// {   project
 //   "id": 1,
 //   "name": "Solar Calculator",
 //   "image":
