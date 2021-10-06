@@ -9,6 +9,11 @@
   background-size: cover;
   background-image: url("../pictures/cool.jpg");
 }
+mt-2 {
+  text-align: center;
+  color: white;
+}
+
 .card-container {
   margin: 35px 35px;
   padding: 35px 35px;
@@ -64,7 +69,7 @@
 /* Style the back side */
 .flip-box-back {
   content: center;
-  background-color: rgb(16, 156, 250);
+  background-color: rgb(5, 5, 5);
   color: rgb(243, 241, 248);
    transform: rotateY(180deg); 
 }
@@ -74,11 +79,6 @@
 }
 .flip-box-back project-image{
   padding: 5px 5px;
-}
-.button{
-  background-color: rgb(254, 252, 251);
-  padding: 5px 5px;
-  margin: 5px 5px;
 }
 .custom-btn {
   color: rgb(254, 252, 251) ;
@@ -94,12 +94,10 @@
     height: 300px;
   }
   h1,
-  h3 {
+  h3,
+  h4,
+  h6 {
     text-align: center;
     color: rgb(240, 237, 236);
   }
-  mt-2 {
-    text-align: center;
-    color: white;
-  }
- 
+  
