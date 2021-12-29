@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/bootswatch.css";
 import "../styles/style.css";
 
 import {
@@ -11,7 +10,6 @@ import {
   Row,
 } from "react-bootstrap";
 import card from "../Projects.json";
-import "../styles/bootswatch.css";
 import "../styles/style.css";
 // import pic from "../pictures/leaf.jpg";
 
@@ -71,55 +69,54 @@ const About = () => {
               maximum potential, with the opportunity for advancement based on
               performance.
             </h3>
-        
-            <div class="container">
-            <Row>   
-              {card.map((card) => (
-                <div class="card card-envo">
-                  <div class="flip-box">
-                    <div class="flip-box-inner">
-                      <div class="flip-box-front">
-                        <Card id="card" key={card.id}>
-                          <Card.Img
-                            class="pic"
-                            variant="top"
-                            alt="pic"
-                            src={card.image}
-                          />
-                        </Card>
-                      </div>
 
-                      <div class="flip-box-back project-image">
-                        <h3 class="mt-2">{card.name}</h3>
-                        <h6 class="mt-2 p-2">{card.description}</h6>
-                        <div class="row pt-2">
-                          <div class="col-6">
-                            <h6>
-                              Technologies Used:
-                              {card.tools}
-                            </h6>
-                          </div>
+            <div class="container">
+              <Row>
+                {card.map((card) => (
+                  <div class="card card-envo">
+                    <div class="flip-box">
+                      <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                          <Card id="card" key={card.id}>
+                            <Card.Img
+                              class="pic"
+                              variant="top"
+                              alt="pic"
+                              src={card.image}
+                            />
+                          </Card>
                         </div>
-                        <Button variant="primary" class="button">
-                        <a href={card.deployed} target="_blank">
-                          Deployed
-                        </a>
-                      </Button>
-                      <Button variant="primary" class="button">
-                        <a href={card.repo} target="_blank">
-                          Repo
-                        </a>
-                      </Button>
+
+                        <div class="flip-box-back project-image">
+                          <h3 class="mt-2">{card.name}</h3>
+                          <h6 class="mt-2 p-2">{card.description}</h6>
+                          <div class="row pt-2">
+                            <div class="col-6">
+                              <h6>
+                                Technologies Used:
+                                {card.tools}
+                              </h6>
+                            </div>
+                          </div>
+                          <Button variant="small" class="button">
+                            <a href={card.deployed} target="_blank">
+                              Deployed
+                            </a>
+                          </Button>
+                          <Button variant="small" class="button">
+                            <a href={card.repo} target="_blank">
+                              Repo
+                            </a>
+                          </Button>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                
-              ))}
-            </Row>
+                ))}
+              </Row>
             </div>
           </Col>
-      
+
           <Col sm={2}>
             <ButtonGroup vertical className="custom-btn">
               <Button class="button">

@@ -1,14 +1,9 @@
-
-import "./App.css";
 import AboutPage from "./pages/About";
-import ContactPage from "./pages/Contact";
-
-
 
 // import MyStack from "./pages/MyStackPage/MyStack";
 import Footer from "./components/Footer";
 
-import Navbar from "./components/Nav";  
+import Navbar from "./components/Nav";
 // import { useEffect, useState } from "react";
 
 import React from "react";
@@ -17,22 +12,18 @@ import { HashRouter as Router, Route } from "react-router-dom";
 
 function App() {
   // const [portfolioArray, setPortfolioArray] = useState([])
-  
 
   return (
     <Router>
       <div>
         <Navbar />
-        
-          <Route exact path="/" component={AboutPage} />
-          <Route exact path="/about" component={AboutPage} />
-        
-          <Route exact path="/contact" component={ContactPage} />
-          
-          <Footer />
-          </div>
-        </Router>
 
+        <Route exact path="/" component={AboutPage} />
+        <Route exact path="/about" component={AboutPage} />
+
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

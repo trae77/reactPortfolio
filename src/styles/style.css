@@ -5,9 +5,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  margin: 1px 1px;
   background-size: cover;
-  background-image: url("../pictures/cool.jpg");
+  background-image: url("../pictures/fireworks.jpg");
 }
 mt-2 {
   text-align: center;
@@ -24,7 +23,7 @@ mt-2 {
 }
 
 .card-envo:hover {
-  background-color: rgb(251, 96, 6);
+  background-color: red;
 }
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
@@ -63,14 +62,14 @@ mt-2 {
 
 /* Style the front side (fallback if image is missing) */
 .flip-box-front {
-  background-color: #bbb;
+  background-color: yellow;
 }
 
 /* Style the back side */
 .flip-box-back {
   content: center;
-  background-color: rgb(5, 5, 5);
-  color: rgb(243, 241, 248);
+  background-color: whitesmoke ;
+  color: black;
    transform: rotateY(180deg); 
 }
 .card{
@@ -81,9 +80,12 @@ mt-2 {
   padding: 5px 5px;
 }
 .custom-btn {
-  color: rgb(254, 252, 251) ;
+  color:red;
     margin: 1px 1px;
     width: 85%;
+    padding: 1;
+    border: 2px solid rgb(236, 236, 241);
+    border-radius: 5px;
   }
   img {
     max-width: 100%;
@@ -97,7 +99,11 @@ mt-2 {
   h3,
   h4,
   h6 {
-    text-align: center;
-    color: rgb(240, 237, 236);
+    text-align: left;
+    color:red ;
   }
-  
+  button{
+    border: 2px solid rgb(236, 236, 241);
+    border-radius: 5px;
+    color: whitesmoke;
+  }
